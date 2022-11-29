@@ -575,8 +575,8 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iosMathTests/Pods-iosMathTests-resources.sh",
-        "${PODS_CONFIGURATION_BUILD_DIR}/iosMath-iOS6.0/mathFonts.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-iosMathTests/Pods-iosMathTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/iosMath-iOS8.0/mathFonts.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -584,7 +584,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosMathTests/Pods-iosMathTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosMathTests/Pods-iosMathTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C897D2526C33F372299D91F4 /* [CP] Copy Pods Resources */ = {
@@ -593,7 +593,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iosMathExample/Pods-iosMathExample-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iosMathExample/Pods-iosMathExample-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/iosMath-iOS9.0/mathFonts.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -602,7 +602,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosMathExample/Pods-iosMathExample-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosMathExample/Pods-iosMathExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E29EDA86FBD87D988339E97B /* [CP] Check Pods Manifest.lock */ = {
