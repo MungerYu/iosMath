@@ -102,7 +102,13 @@
 {
     _mathList = mathList;
     _error = nil;
+    // MARK: munger 这里是 mathList  转换为latex
+    /// 如果是latex 转化我mathList 使用 buildFromString latex
+    /// 所以存在本地的值应该为 latex + 求值后的value
+    /// 需要确认的点是: 如果做拍照识别公式,需要把我们平时阅读使用的公式转换为latex
+    /// 
     _latex = [MTMathListBuilder mathListToString:mathList];
+    NSLog(@"_latex = %@",_latex);
     [self invalidateIntrinsicContentSize];
     [self setNeedsLayout];
 }
